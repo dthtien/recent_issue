@@ -1,24 +1,3 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Listing the problems or TILs which we usally meet when working with Rails
+- [x] Rails [`ActiveSupport::Notification`](https://api.rubyonrails.org/classes/ActiveSupport/Notifications.html)
+- [ ] Active record distinct when joining one-many relationship
