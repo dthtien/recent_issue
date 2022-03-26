@@ -1,0 +1,10 @@
+user1 = User.create(name: 'Ola')
+user2 = User.create(name: 'Hello')
+user3 = User.create(name: 'Wow')
+User.create(name: 'Bye')
+
+Comment.create(user: user1, rating: 1)
+Comment.create(user: user2, rating: 5)
+Comment.create(user: user2, rating: 3)
+Comment.create(user: user3, rating: 5)
+Comment.create(user: user1, rating: 2)
