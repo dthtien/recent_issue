@@ -20,10 +20,3 @@ class User < ApplicationRecord
     end
   end
 end
-
-# from(
-# with_latest_job.select(%{
-# DISTINCT ON (members.id) members.*, COALESCE(employment_histories.title, '') AS job_title
-# }), :members)
-# .order(job_title: options[:dir])
-
