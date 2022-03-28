@@ -15,5 +15,5 @@ unless Comment.any?
     Comment.create(user: User.all.sample, rating: rand(1..5))
   end
 end
-
+Comment.update_all(read: false) if Comment.where(read: true).any?
 Comment.find_each { |comment| Comments::MarkAsReadJob.perform_async(comment.id) }
